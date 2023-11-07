@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Mahlatse's Portfolio</title>
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=VT323&display=swap" rel="stylesheet">
+	
+	<link rel="Stylesheet" href="Style1.css">
+	
+
+</head>
+
+<body>
+	<section class="header">
+		<nav>
+			
+			<div class="nav-links" id="navLinks">
+			   <i class="fa fa-times" onclick="hideMenu()"></i>	
+				<ul>
+					<li><a href="#About"><b>ABOUT</b></a></li>
+					<li><a href="#projects"><b>PROJECTS</b></a></li>
+					<li><a href="https://github.com/Hlatsi98"><i class="fa-brands fa-github"></i> </a></li>
+					<li><a href="https://www.linkedin.com/in/mahlatse-u-957247235"><i class="fa-brands fa-linkedin"></i></a></li>
+				
+					
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+	<div class="text-box">
+	<h1 id="About">Hi, my name is Mahlatse;)</h1>
+	<p class="container" ><b>Hello, World! My name is Mahlatse, I am an aspiring software engineer/data scientist. I am based in South Africa, Pretoria.<br>
+		I am a tech and data enthusiast and always excited to refine my skills to better understand and solve problems. <br>
+		This is my portfolio website I built it using HTML,CSS and Javascript.</b></p>
+	
+	<a href="#contact" class="hero-btn"><b>Get in touch.</b></a>
+	</div>
+	</section>
+	
+	<!----Projects ---->
+	<section class="services">
+		<h1 id="projects">My Projects.</h1>
+		<p><b>Here are some projects I've worked on, feel free to look around. You may be redirected.</b></p>
+		<div class="row">
+			<div class="services-col">
+				<h3>Book A Service Website(CleanersRUs).</h3>
+				<a href="https://cleanersrus.netlify.app"><img src="images/CleanersRUsss.jpg" alt="CleanersRUsss" height="150px" width="300px"></a>
+				<p><b>Tech Stack: HTML, CSS, Javascript.</b></p>
+				
+			</div>
+			
+			<div class="services-col">
+				<h3>Basic Snake Game.</h3>
+				<a href="https://hlatsisbasicsnakegame.netlify.app"><img src="images/SGamess.jpg" alt="SGamess" height="150px" width="300px"></a>
+				<p><b>Tech Stack: HTML, CSS, Javascript.</b></p>
+				
+			</div>
+			
+			<div class="services-col">
+				<h3>Working On It!!!</h3>
+				<p>
+					Under Construction.
+				</p>
+				
+			</div>
+			
+			
+			
+			
+		</div>
+		<p id="contact"><b>Contact Me: Email : hlatsijobs@gmail.com  </b></p>
+	
+	</section>
+	
+	
+		
+	<!----Footer---->
+	<footer class="footer">
+		<div class="container">
+			
+			
+	
+		<center><p>South Africa, Pretoria. Copyright © Mahlatse S. 2023.All Rights Reserved.</p></center>
+	</footer>	
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<!----Javascript for toggle menu---->
+	<script>
+		var navLinks = document.getElementById("navLinks");
+		function showMenu(){
+			navLinks.style.right ="0"; 
+		}
+		function hideMenu(){
+			navLinks.style.right ="-200px"; 
+		}
+	</script>
+	
+	
+	
+	
+</body>
+
+</html>
